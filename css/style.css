@@ -1,6 +1,7 @@
 html {
      max-width: 100%;
 }
+
 body {
      font-size: 1rem;
      box-sizing: border-box;
@@ -9,10 +10,13 @@ body {
      background-color: #cfd8dc;
      width: 100%;
 }
+
 /*-----------HEADER-------------*/
+
 .logo {
      max-width: 50px;
 }
+
 header {
      width: 100%;
      height: 100vh;
@@ -22,6 +26,7 @@ header {
      background-size: cover;
      position: relative;
 }
+
 .info {
      padding-top: 10%;
      display: flex;
@@ -29,31 +34,41 @@ header {
      flex-direction: column;
      height: 100%;
 }
+
 /*---------PARAGRAPGHS----------*/
+
 p {
      line-height: 1.4em;
      word-spacing: 0.28em;
      color: #455a64;
 }
+
 /*--------HEADINGS--------------*/
+
 h1 {
      color: white;
      font-size: 4rem;
 }
+
 .heading-section {
      color: #7d97ad;
      padding: 20px 0;
 }
+
 .heading-info {
      color: white;
 }
+
 .about-color {
 	color: #424242;
 }
+
 /*-------FEAUTERED--------------*/
+
 .featured {
      background-color: #fafafa;
 }
+
 .img-description {
      text-transform: uppercase;
      padding: 20px 0 40px 0;
@@ -62,28 +77,36 @@ h1 {
      font-size: 1.3rem;
      display: block;
 }
+
 .img-description:hover {
      text-decoration: none;
      color: #a591a5;
 }
+
 .row-about {
 	background-color: #fafafa;
 	padding: 30px 20px;
 	margin-bottom: 30px;
 }
+
 .about {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
 .wrap {
 	display: flex;
 	align-items: center;
 }
+
 /*---------ABOUT--------------*/
+
 .img-about {
 	width: 100vw;
 }
+
 /*--------FOOTER--------------*/
+
 .footer-list {
      list-style: none;
      padding-top: 20px;
@@ -93,24 +116,32 @@ h1 {
      color: #212121;
      font-size: 2rem;
 }
+
 .footer-list li {
      display: inline;
      padding: 20px 20px 20px 0;
 }
+
 .icon-footer:hover {
      color: #b39ddb;
 }
+
 footer {
      background-color: #eee;
 }
+
 /*-------MEDIA QUERIES---------*/
+
 @media screen and (max-width: 768px) {
+     
      .info {
           padding-top: 30%;
 	}
+
      #heading-about {
      	padding-top: 10px;
 	}
+
      header {
      	width: 100%;
      	height: 100vh;
